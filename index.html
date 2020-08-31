@@ -11,7 +11,21 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar-site" data-offset="80">
-
+  <style>
+          body {
+              animation: fadeInAnimation ease 3s;
+              animation-iteration-count: 1;
+              animation-fill-mode: forwards;
+          }
+          @keyframes fadeInAnimation {
+              0% {
+                  opacity: 0;
+              }
+              100% {
+                  opacity: 1;
+              }
+          }
+      </style>
 <!-- Header -->
 <section id="header" class="">
   <div class="container">
@@ -47,19 +61,90 @@
 <section id="about-me">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <div class="card shadow">
           <div class="card-body">
             <h3 class="card-title">About me!</h3>
             <p class="lead">Hey! Nice to meet you!
     	Hi, My name is Kyle Morimoto and I am currently a student at University of Illinois Urbana - Champaign studying Systems Engineering and Design with a focus on Computer Science.
     	Outside of classwork, I participate in a variety of work from consulting, UI/UX design, website development, game development, and violin performances. My wide range of experiences has helped me truly develop the skills that I need to be an efficient and well performing Product Developer. My life's philosophy of immersing myself into any opportunities that come my way help equip me with the soft and hard skills I need to be successful within anything that I tackle. From using skills I gained from starting a startup in high school to using skills I've learned from when I was 5, learning the violin, I have learned to apply each and everyone of these skills to better enhance my work.
-    Some hobbies of mine include playing the violin, running(idk how this became a hobby), and the occasional game of League of Legends. </p>
+     </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="">
+          <h3 class="card-title">Programming Skills</h3>
+          <div class="button-custom shadow-sm">
+            HTML
+          </div>
+          <div class="button-custom shadow-sm">
+            CSS
+          </div>
+          <div class="button-custom shadow-sm">
+            Javascript
+          </div>
+          <div class="button-custom shadow-sm">
+            Python
+          </div>
+          <div class="button-custom shadow-sm">
+            Java
+          </div>
+          <div class="button-custom shadow-sm">
+            Swift
+          </div>
+          <div class="button-custom shadow-sm">
+            React.js
+          </div>
+          <div class="button-custom shadow-sm">
+            Node.JS
+          </div>
+          <div class="button-custom shadow-sm">
+            Bootstrap
+          </div>
+          <div class="button-custom shadow-sm">
+            ZURB Foundation
+          </div>
+          <br>
+          <h3 class="card-title" style="margin-top:10px;">Design Skills</h3>
+          <div class="button-custom shadow-sm">
+            Figma
+          </div>
+          <div class="button-custom shadow-sm">
+            Adobe Photoshop
+          </div>
+          <div class="button-custom shadow-sm">
+            Adobe XD
+          </div>
+          <div class="button-custom shadow-sm">
+            Wordpress
+          </div>
+          <br>
+          <h3 class="card-title" style="margin-top:10px;">Certifications</h3>
+          <div class="button-custom2 shadow-sm">
+            Six Sigma Green Belt
+          </div>
+          <div class="button-custom2 shadow-sm">
+            Microsoft Word
+          </div>
+          <h3 class="card-title" style="margin-top:10px;">Hobbies</h3>
+          <div class="button-custom3 shadow-sm">
+            Violin
+          </div>
+          <div class="button-custom3 shadow-sm">
+            Running
+          </div>
+          <div class="button-custom3 shadow-sm">
+            League of Legends
+          </div>
+          <div class="button-custom3 shadow-sm">
+            Baseball
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
 </section>
 
