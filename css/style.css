@@ -1,6 +1,41 @@
 html{
   scroll-behavior: smooth;
 }
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .img-circle{
+    border-radius: 50%;
+    width: 100px;
+    text-align: center;
+  }
+}
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .img-circle{
+    border-radius: 50%;
+    width: 200px;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .img-circle{
+    border-radius: 50%;
+    width: 200px;
+  }
+  .text-center-break{
+    text-align: center;
+  }
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .img-circle{
+    border-radius: 50%;
+    width: 300px;
+  }
+}
+
+
+/* buttons */
 .button-custom{
   margin-top: 8px;
   margin-right: 5px;
@@ -11,7 +46,6 @@ html{
   text-decoration: none;
   display: inline-block;
   border-radius: 25px;
-
 }
 .button-custom2{
   margin-top: 8px;
@@ -35,6 +69,9 @@ html{
   display: inline-block;
   border-radius: 25px;
 }
+/* buttons end */
+
+/* resume */
 .w-32 {
     width: 32px !important;
     height: 32px !important;
@@ -209,6 +246,8 @@ tl-item.active .tl-dot:before {
     border-radius: 500px;
     box-shadow: 0 5px 10px 0 rgba(0, 123, 255, .15);
 }
+/* resume end */
+
 /* sections */
 #header{
   background: #FAFAFA !important;
@@ -221,30 +260,20 @@ tl-item.active .tl-dot:before {
 #articles{
   background: #FAFAFA !important;
 }
-.work-section{
-  height: 40rem;
-  background-color: #FAFAFA;
-
-}
-
-
+/* sections end */
 
 
 /* images */
 .img-circle{
   border-radius: 50%;
+  width: 200px;
 }
 .image-height{
   height: 15%;
 }
+/* images end */
 
-
-
-
-
-
-
-
+/* footer */
 .footer-distributed {
   box-sizing: border-box;
   width: 100%;
@@ -313,33 +342,8 @@ tl-item.active .tl-dot:before {
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
-
+/* footer end */
 
 .navbar{
   padding-left: 0;
 }
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-
- }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-
-}
-
-
-
-
-
-
-
-/* // Large devices (desktops, 992px and up) */
-@media (max: 992px) {
-
- }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
- }
