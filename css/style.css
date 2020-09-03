@@ -1,5 +1,21 @@
 html{
   scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+div{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.light{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -40,7 +56,7 @@ html{
   margin-top: 8px;
   margin-right: 5px;
   background-color: #ffffff;
-  border: 2px solid #007bff;
+  border: 1px solid #007bff;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -51,7 +67,7 @@ html{
   margin-top: 8px;
   margin-right: 5px;
   background-color: #ffffff;
-  border: 2px solid #FF7D00;
+  border: 1px solid #FF7D00;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -62,7 +78,7 @@ html{
   margin-top: 8px;
   margin-right: 5px;
   background-color: #ffffff;
-  border: 2px solid #F9f9f9 ;
+  border: 1px solid #F9f9f9 ;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -260,6 +276,11 @@ tl-item.active .tl-dot:before {
 #articles{
   background: #FAFAFA !important;
 }
+#resume{
+  background: #FAFAFA !important;
+  padding-top: 70px;
+}
+
 /* sections end */
 
 
